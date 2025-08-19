@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>standard room</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('https://image.freepik.com/free-photo/abstract-blur-defocused-luxury-hotel-lobby-background_1339-124777.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 36px;
+      color: #cbb86a;
+      text-shadow: 2px 2px 5px #000000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .image-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-box img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .image-box h3 {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 1px 1px 3px #000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .bottom-buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .bottom-buttons button {
+      padding: 10px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      font-family: 'Segoe UI', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .select-btn {
+      background-color: #4caf50;
+    }
+
+    .select-btn:hover {
+      background-color: #388e3c;
+    }
+
+    .back-btn {
+      background-color: #2196f3;
+    }
+
+    .back-btn:hover {
+      background-color: #1976d2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Standard Room</h1>
+
+  <div class="container">
+    <div class="image-box">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.gUNzWWN2gYvbL2ZLkcvZUQHaEo?pid=Api&P=0&h=180" alt="Room view">
+      <h3>Room view</h3>
+    </div>
+    <div class="image-box">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.DsoKsMpK1kwwZFNdPKJXwwAAAA?pid=Api&P=0&h=180" alt="Living Area">
+      <h3>Living Area</h3>
+    </div>
+    <div class="image-box">
+      <img src="https://i.pinimg.com/originals/0e/de/cb/0edecbcba04769984877397593537edf.jpg" alt="Food court">
+      <h3>Food court</h3>
+    </div>
+  </div>
+
+  <div class="bottom-buttons">
+    <a href="book"><button class="select-btn">Select</button></a>
+    <a href="index.html"><button class="back-btn">Back</button></a>
+  </div>
+
+</body>
+</html>

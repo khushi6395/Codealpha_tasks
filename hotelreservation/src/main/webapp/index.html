@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRYSTAL STAY</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      height:100;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://tse3.mm.bing.net/th/id/OIP.-F3-VXfE2t77LFBHRQRdiQHaDt?pid=Api&P=0&h=180');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    
+
+    header {
+      text-align: center;
+      background-color: #e3f2fd;
+      color: #0d47a1;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .room-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .room-card {
+      background-color: #ffffff;
+      border: 1px solid #dce3ea;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(4px);           
+  min-height: 100vh;
+  width: 100%;
+}
+
+    .room-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .room-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .room-card h3 {
+      margin: 0.7rem 0 0;
+      color: #1976d2;
+    }
+
+    .room-card p {
+      margin: 0.5rem;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 1rem;
+    }
+
+    .book-btn, .cancel-btn {
+      padding: 0.6rem 1rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .book-btn {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .book-btn:hover {
+      background-color: #43a047;
+    }
+
+    .cancel-btn {
+      background-color: #e57373;
+      color: white;
+    }
+
+    .cancel-btn:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>CRYSTAL STAY</h1>
+      
+    </header>
+
+    <section class="room-container">
+      <!-- Standard Room -->
+      <div class="room-card">
+        <img src="https://watermark.lovepik.com/photo/20211130/large/lovepik-hotel-standard-room-picture_501283030.jpg" alt="Standard Room" />
+        <h3>Standard Room</h3>
+        <p><br>₹2000/day</p>
+        <div class="btn-group">
+        <a href="Room1.html"><button class="book-btn">Book now</button></a>
+          <a href="cancel"><button class="cancel-btn">Cancel Reservation</button></a>
+        </div>
+      </div>
+
+      <!-- Deluxe Room -->
+      <div class="room-card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.gUNzWWN2gYvbL2ZLkcvZUQHaEo?pid=Api&P=0&h=180" alt="Deluxe Room" />
+        <h3>Deluxe Room</h3>
+        <p>₹3500/day</p>
+        <div class="btn-group">
+          <a href="Room2.html"><button class="book-btn">Book now</button></a>
+           <a href="cancel"><button class="cancel-btn">Cancel Reservation</button></a>
+        </div>
+      </div>
+
+      <!-- Suite -->
+      <div class="room-card">
+        <img src="https://photos.mandarinoriental.com/is/image/MandarinOriental/dmo-The-worlds-most-romantic-hotel-suites-dubai-royal-penthouse-bedroom" alt="Suite" />
+        <h3>Suite</h3>
+        <p>₹5000/day</p>
+        <div class="btn-group">
+         <a href="Room3.html"><button class="book-btn">Book now</button></a>
+         <a href="cancel"><button class="cancel-btn">Cancel Reservation</button></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
