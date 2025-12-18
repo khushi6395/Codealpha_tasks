@@ -21,7 +21,7 @@
     </context-param>
         <context-param>
     <param-name>dpassword</param-name>
-    <param-value>khushi123</param-value>
+    <param-value>******</param-value>
     </context-param>
     
     <servlet-mapping>
