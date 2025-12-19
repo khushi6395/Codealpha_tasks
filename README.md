@@ -4,17 +4,18 @@ A web-based Hotel Reservation System developed using HTML, CSS, Java Servlets, J
 The project allows users to book hotel rooms online and show booking details for the costumer .
 
 📌 Features
+
 👤 User Features
 
-User-friendly web interface
+-> User-friendly web interface
 
-View available hotel rooms
+-> View available hotel rooms
 
-Book rooms by entering customer details
+-> Book rooms by entering customer details
 
-View booking confirmation
+-> View booking confirmation
 
-Cancel reservations
+-> Cancel reservations
 
 🛠️ Technologies Used
 Frontend
