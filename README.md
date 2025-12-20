@@ -41,4 +41,4 @@ Server
 Tools
 -> IDE: Eclipse 
 
-Database Tool: MySQL Workbench
+Database Tool: MySQL 
